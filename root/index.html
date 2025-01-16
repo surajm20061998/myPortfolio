@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suraj Mishra | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Suraj Mishra</h1>
+    <p>MS in Information Systems, NYU Courant</p>
+    <p>Email: <a href="mailto:sm12377@nyu.edu">sm12377@nyu.edu</a> • Phone: 551-371-2172</p>
+    <p>388 Baldwin Ave • Jersey City, New Jersey 07306</p>
+  </header>
+  <hr/>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div>
+      <h3>New York University, Courant Institute of Mathematical Sciences</h3>
+      <p><strong>MS, Information Systems</strong> (Sept 2024 - Present)</p>
+      <p>Relevant Coursework: Database Management Systems, Operating Systems, Foundations of Fintech</p>
+    </div>
+
+    <div>
+      <h3>National Institute of Technology, Bhopal, India</h3>
+      <p><strong>Bachelor of Technology, Computer Science and Engineering</strong> (July 2016 – June 2020)</p>
+      <p>Relevant Coursework: Data Structures, Algorithm Design and Analysis, Statistics, Machine Learning, Software Engineering</p>
+    </div>
+  </section>
+  <hr/>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div>
+      <h3>Oracle, Bengaluru, Karnataka, India</h3>
+      <p><strong>Member Technical Staff (Jan 2022 – Aug 2024)</strong></p>
+      <ul>
+        <li><strong>Streamlined Test & Delivery:</strong> Established robust CI/CD pipelines for the ZRCV cloud service, enhancing reliability, scalability, and development efficiency while reducing manual testing efforts by 95%.</li>
+        <li><strong>Innovation & Stakeholder Engagement:</strong> Implemented parallelization techniques, cutting test execution time by ~80% and enabling timely delivery of critical features to internal clients.</li>
+        <li><strong>Resilient Infrastructure:</strong> Upgraded test infrastructure with fail-safe mechanisms and retry logic, improving true positive bug detection by ~90% and reducing production issues.</li>
+        <li><strong>Consultative Support:</strong> Provided technical insights and demos to internal teams, aligning solutions with evolving project requirements and showcasing best practices in cloud testing.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Incture Technologies, Bengaluru, Karnataka, India</h3>
+      <p><strong>Software Engineer (Sept 2020 – Dec 2021)</strong></p>
+      <ul>
+        <li><strong>Customer-Centric Backend Services:</strong> Developed scalable backend services using Spring MVC and Spring Boot, improving response times by ~70%.</li>
+        <li><strong>Automated Deployments:</strong> Deployed services on SAP Cloud Platform with zero manual interventions, reducing operational overhead.</li>
+        <li><strong>Technical Troubleshooting & Communication:</strong> Led root cause analyses for client-reported issues, reducing customer incidents by 85%.</li>
+        <li><strong>Cross-Functional Collaboration:</strong> Partnered with QA and product teams for feedback, presenting solutions and ensuring smooth development cycles.</li>
+      </ul>
+    </div>
+  </section>
+  <hr/>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3>Technical/Programming</h3>
+    <p>Java, Python, C++, SQL, Shell</p>
+    <h3>Frameworks/Technologies</h3>
+    <p>Spring, Hibernate, REST, OCI, SAP Hana, Azure</p>
+    <h3>Tools</h3>
+    <p>Git, TeamCity, Jenkins, Postman, Docker, Jira, Microsoft Office Suite, Google Slides and Docs</p>
+    <h3>Soft/Consultative Skills</h3>
+    <p>Stakeholder Engagement, Technical Demos, Presentation & Storytelling, Problem-Solving, Agile Development</p>
+  </section>
+  <hr/>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div>
+      <h3>Real Time Healthcare System (Dec 2024)</h3>
+      <p>Delivered a robust, scalable healthcare platform providing actionable insights to healthcare providers and improving patient care through timely risk alerts.</p>
+      <ul>
+        <li><strong>Enterprise Data Architecture (EDA):</strong> Merged traditional relational databases with big data sources.</li>
+        <li><strong>Machine Learning Integration:</strong> Developed a Python-based model to calculate patient risk factors; updated Operational Data Store in real time.</li>
+        <li><strong>Spring Boot & Azure SQL Backend:</strong> Implemented RESTful services and Thymeleaf templates.</li>
+        <li><strong>Performance & Governance:</strong> Introduced caching and data governance strategies, ensuring scalability and security.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Intrusion Detection System (June 2020)</h3>
+      <p>Designed a deterministic model using Extreme Learning Machines to detect emerging cyber threats.</p>
+      <ul>
+        <li><strong>Advanced ML Algorithms & Feature Engineering:</strong> Employed ELM and ensemble classifiers (Random Forest, XGBoost) to address imbalanced threat data.</li>
+        <li><strong>Continuous Model Training & Evaluation:</strong> Implemented a re-training pipeline triggered by new data.</li>
+        <li><strong>Anomaly Detection & Ensemble Methods:</strong> Used semi-supervised approaches to identify novel attack vectors.</li>
+      </ul>
+    </div>
+  </section>
+  <hr/>
+
+  <!-- Footer or Contact Section -->
+  <footer>
+    <p>Connect with me on <a href="https://github.com/YourGithubUsername" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/YourLinkedInProfile" target="_blank">LinkedIn</a>.</p>
+    <p>© <span id="year"></span> Suraj Mishra</p>
+  </footer>
+
+  <script>
+    // Dynamically set the current year in the footer
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
